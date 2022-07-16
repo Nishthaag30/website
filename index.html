@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple-products</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header id="header">
+        <div id="logo">
+            <a href="#">
+            <img src="./apple logo.png" alt=""></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="./HTMLfiles/iphones.html">iPHONES</a></li>
+                <li><a href="#">MAC</a></li>
+                <li><a href="#">AIRPODS</a></li>
+                <li><a href="#">WATCH</a></li>
+                <li><a href="#">iPAD</a></li>
+                <li><a href="#">ABOUT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="slider-box">
+        <div id="slider">
+            <div>
+                <a href="#"><img src="./images/latestiphone.png" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="./images/latestmac.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="./images/latestiphone.png" alt=""></a>
+            </div>
+        </div>
+        <div class="indicators">
+            <span id="btn1"></span>
+            <span id="btn2"></span>
+            <span id="btn3"></span>
+            <span id="btn4"></span>
+        </div>
+    </div>
+
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="slick.js"></script>
+    <script src="./jsfiles/script.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.div2').slick({
+                dots: true,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 1500,
+                fade: true,
+                fadeSpeed: 1000
+            });
+        });
+    </script>
+</body>
+</html>
