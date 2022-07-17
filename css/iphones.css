@@ -149,7 +149,7 @@ nav ul li a:hover{
     background-color: rgb(226, 226, 226);
     padding: 6px 8px;
 }
-#iphone13max_size span:hover{
+#iphone13max_size a:hover{
     background-color: rgb(206, 206, 206);
     border-radius: 1px;
 }
@@ -225,7 +225,7 @@ nav ul li a:hover{
     background-color: rgb(226, 226, 226);
     padding: 6px 8px;
 }
-#iphone13_size span:hover{
+#iphone13_size a:hover{
     background-color: rgb(206, 206, 206);
     border-radius: 1px;
 }
