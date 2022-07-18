@@ -38,7 +38,7 @@ nav ul li a:hover{
     background-color: wheat;
     width: 75%;
     height: 5000px;
-    margin: 120px 200px;
+    margin: 100px auto;
 
 }
 .sub-box{
@@ -85,6 +85,7 @@ nav ul li a:hover{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     margin: 20px;
+    margin-bottom: 10px;
 }
 #iphone13max_colors{
     position: relative;
@@ -125,9 +126,6 @@ nav ul li a:hover{
 #iphone13max_colors span:hover{
     transform: scale(1.05);
 }
-/* .colors #btn2:hover{
-    background-image: url(../images/iphone13pro_gold.png);
-} */
 .price{
     font-size: 25px;
     margin-left: 40px;
@@ -148,6 +146,7 @@ nav ul li a:hover{
     height: 350px;
     background-color: rgb(226, 226, 226);
     padding: 6px 8px;
+    margin-right: 5px;
 }
 #iphone13max_size a:hover{
     background-color: rgb(206, 206, 206);
@@ -167,70 +166,8 @@ nav ul li a:hover{
 .info-box ul li{
     padding: 4px;
     margin-right: 25px;
-    font-size: 17px;
+    font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(51, 51, 51);
 }
 
-
-
-
-
-#iphone13_colors{
-    position: relative;
-    left: 75%;
-    align-items: center;
-    transform: translateX(-50%);
-    /* background-color: aqua; */
-    transition: .1s;
-}
-#iphone13_colors span{
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    cursor: pointer;
-    padding: 0px 10px;
-}
-#iphone13_colors #bt1{
-    background-color: rgb(134, 5, 5);
-    border-top: .5px  solid black;
-}
-#iphone13_colors #bt2{
-    background-color: rgb(135, 177, 212);
-    border-top: .5px  solid black;
-}
-#iphone13_colors #bt3{
-    background-color: rgb(64, 70, 64);
-    border-top: .5px  solid black;
-}
-#iphone13_colors #bt5{
-    background-color: rgb(255, 213, 221);
-    border-top: .5px  solid black;
-}
-#iphone13_colors #bt4{
-    background-color: rgb(36, 36, 54);
-    border-top: .5px  solid black;
-}
-#iphone13_colors #bt6{
-    background-color: rgb(247, 247, 247);
-    border-top: .5px  solid black;
-}
-#iphone13max_colors span:hover{
-    transform: scale(1.05);
-}
-#iphone13_size span a{
-    width: 250px;
-    height: 350px;
-    background-color: rgb(226, 226, 226);
-    padding: 6px 8px;
-}
-#iphone13_size a:hover{
-    background-color: rgb(206, 206, 206);
-    border-radius: 1px;
-}
-#iphone13_size a{
-    text-decoration: none;
-    color: black;
-    font-size: 19px;
-}

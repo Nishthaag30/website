@@ -1,0 +1,55 @@
+#iphone12mini_colors{
+    position: relative;
+    left: 75%;
+    align-items: center;
+    transform: translateX(-50%);
+    /* background-color: aqua; */
+    transition: .1s;
+}
+#iphone12mini_colors span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+#iphone12mini_colors #mini12b1{
+    background-color: rgb(143, 30, 30);
+    border-top: .5px  solid black;
+}
+#iphone12mini_colors #mini12b2{
+    background-color: rgb(44, 80, 130);
+    border-top: .5px  solid black;
+}
+#iphone12mini_colors #mini12b3{
+    background-color: rgb(188, 241, 218);
+    border-top: .5px  solid black;
+}
+#iphone12mini_colors #mini12b4{
+    background-color: rgb(170, 101, 202);
+    border-top: .5px  solid black;
+}
+#iphone12mini_colors #mini12b5{
+    background-color: white;
+    border-top: .5px  solid black;
+}
+#iphone12mini_colors span:hover{
+    transform: scale(1.05);
+}
+#iphone12mini_size span a{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(226, 226, 226);
+    padding: 6px 8px;
+    margin-right: 5px;
+}
+#iphone12mini_size a:hover{
+    background-color: rgb(206, 206, 206);
+    border-radius: 1px;
+}
+#iphone12mini_size a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
