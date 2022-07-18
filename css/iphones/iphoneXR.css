@@ -1,0 +1,43 @@
+#iphoneXR_colors{
+    position: relative;
+    left: 75%;
+    align-items: center;
+    transform: translateX(-50%);
+    /* background-color: aqua; */
+    transition: .1s;
+}
+#iphoneXR_colors span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+#iphoneXR_colors #XRb1{
+    background-color: rgb(136, 32, 32);
+    border-top: .5px  solid black;
+}
+#iphoneXR_colors #XRb2{
+    background-color: rgb(246, 117, 70);
+    border-top: .5px  solid black;
+}
+#iphoneXR_colors span:hover{
+    transform: scale(1.05);
+}
+#iphoneXR_size span a{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(226, 226, 226);
+    padding: 6px 8px;
+    margin-right: 5px;
+}
+#iphoneXR_size a:hover{
+    background-color: rgb(206, 206, 206);
+    border-radius: 1px;
+}
+#iphoneXR_size a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}

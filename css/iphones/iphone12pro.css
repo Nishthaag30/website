@@ -1,0 +1,43 @@
+#iphone12pro_colors{
+    position: relative;
+    left: 75%;
+    align-items: center;
+    transform: translateX(-50%);
+    /* background-color: aqua; */
+    transition: .1s;
+}
+#iphone12pro_colors span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+#iphone12pro_colors #pro12b1{
+    background-color: rgb(90, 88, 88);
+    border-top: .5px  solid black;
+}
+#iphone12pro_colors #pro12b2{
+    background-color: rgb(255, 244, 184);
+    border-top: .5px  solid black;
+}
+#iphone12pro_colors span:hover{
+    transform: scale(1.05);
+}
+#iphone12pro_size span a{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(226, 226, 226);
+    padding: 6px 8px;
+    margin-right: 5px;
+}
+#iphone12pro_size a:hover{
+    background-color: rgb(206, 206, 206);
+    border-radius: 1px;
+}
+#iphone12pro_size a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
