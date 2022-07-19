@@ -3,63 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apple-products</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Apple Page</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header id="header">
-        <div id="logo">
-            <a href="#">
-            <img src="./images/apple logo.png" alt=""></a>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list nav-list-mobile">
+                    <li class="nav-item">
+                        <div class="mobile-menu">
+                            <span class="line line-top"></span>
+                            <span class="line line-bottom"></span>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link nav-link-apple"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link nav-link-bag"></a>
+                    </li>
+                </ul>
+                <ul class="nav-list nav-list-larger">
+                    <li class="nav-item nav-item-hidden">
+                        <a href="index.html" class="nav-link nav-link-apple"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.apple.com/in/mac/" class="nav-link">Mac</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.apple.com/in/ipad/?afid=p238%7Cs83Dh9kdr-dc_mtid_187079nc38483_pcrid_601071961675_pgrid_114045531255_pntwk_g_pchan__pexid__&cid=aos-IN-kwgo-ipad--slid---product-" class="nav-link">iPad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./HTMLfiles/iphones.html" class="nav-link">iPhone</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.apple.com/in/watch/?afid=p238%7Cs4R9CQuTi-dc_mtid_187079nc38483_pcrid_605630655494_pgrid_115404494361_pntwk_g_pchan__pexid__&cid=aos-IN-kwgo-brand--slid---product-" class="nav-link">Watch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link nav-link-search"></a>
+                    </li>
+                    <li class="nav-item nav-item-hidden">
+                        <a href="#" class="nav-link nav-link-bag"></a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="./index.html">HOME</a></li>
-                <li><a href="./HTMLfiles/iphones.html">iPHONES</a></li>
-                <li><a href="#">MAC</a></li>
-                <li><a href="#">AIRPODS</a></li>
-                <li><a href="#">WATCH</a></li>
-                <li><a href="#">iPAD</a></li>
-                <li><a href="#">ABOUT US</a></li>
-            </ul>
-        </nav>
     </header>
-    <div id="slider-box">
-        <div id="slider">
-            <div>
-                <a href="#"><img src="./images/latestiphone.png" alt=""></a>
+    
+    <section class="hero iphone-11-pro">
+        <div class="container">
+            <div class="title">
+                <h2 class="title-heading">iPhone Pro Series</h2>
+                <h3 class="title-sub-heading">Pro Camera, Pro Display, Pro Performance.</h3>
+                <p class="title-price">At Rs 1,00,000</p>
             </div>
-            <div>
-                <a href="#"><img src="./images/latestmac.jpg" alt=""></a>
-            </div>
-            <div>
-                <a href="#"><img src="./images/latestiphone.png" alt=""></a>
+            <div class="cta">
+                <a href="#" class="cta-link">Learn More</a>
+                <a href="#" class="cta-link">Buy</a>
             </div>
         </div>
-        <div class="indicators">
-            <span id="btn1"></span>
-            <span id="btn2"></span>
-            <span id="btn3"></span>
-            <span id="btn4"></span>
+    </section>
+
+    <section class="hero iphone-11">
+        <div class="container">
+            <div class="title title-dark">
+                <h2 class="title-heading">Get an education discount on Mac or iPad.</h2>
+                <h3 class="title-sub-heading">Save on Mac or iPad for university. You’ll also save on Apple Pencil, Smart Keyboard, get 20% off AppleCare+ footnote3 and more.</h3>
+                <p class="title-price">At Rs 80,000</p>
+            </div>
+            <div class="cta">
+                <a href="#" class="cta-link cta-link-darker">Learn More</a>
+                <a href="#" class="cta-link cta-link-darker">Buy</a>
+            </div>
         </div>
-    </div>
+    </section>
 
 
-    <script src="jquery-3.2.1.min.js"></script>
-    <script src="slick.js"></script>
-    <script src="./jsfiles/script.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('.div2').slick({
-                dots: true,
-                arrows: false,
-                autoplay: true,
-                autoplaySpeed: 1500,
-                fade: true,
-                fadeSpeed: 1000
-            });
-        });
-    </script>
+    <section class="watch">
+        <div class="container">
+            <div class="title title-dark">
+                <h2 class="title-heading"></h2>
+                <h3 class="title-sub-heading">With the new Ratina display. <br>
+                You've never seen a watch like this.</h3>
+            </div>
+            <div class="cta">
+                <a href="#" class="cta-link cta-link-darker">Learn More</a>
+                <a href="#" class="cta-link cta-link-darker">Buy</a>
+            </div>
+        </div>
+    </section>
+    <script src="./main.js"></script>
 </body>
 </html>
