@@ -6,6 +6,7 @@
 }
 html{
     font-size: 10px;
+    font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 header a{
     display: block;
@@ -90,9 +91,8 @@ header{
     font-size: 5.5rem;
     font-weight: 600;
     letter-spacing: 1.2px;
-    background: linear-gradient(0deg, rgba(210, 125, 195, 1) 0%, rgb(206, 176, 200) 20%, rgba(251, 239, 249, 1) 91%);
+    color: white;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     margin-bottom: 1rem;
 }
 .h_manage{
@@ -290,6 +290,8 @@ a{
 .mac_heading span{
     font-size: 1.9rem;
     font-weight: 400;
+    line-height: 0.9;
+
 }
 .mac_price span{
     color: darkgrey;
@@ -347,7 +349,6 @@ a{
     width: 100%;
     text-align: center;
     margin-bottom: 100px;
-    background-color: lightgrey;
 }
 #seemore a 
 {
@@ -358,6 +359,90 @@ a{
 #seemore a:hover{
     text-decoration: underline;
     opacity: 0.4;
+}
+
+.c{
+    max-width: 1170px;
+    background-color: #ffff;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #ffff;
+    padding: 50px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 50px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: blue;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li a{
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbb;
+    display: block;
+    transition: all 0.3s ease; 
+}
+.footer-col ul li a:hover{
+    color: black;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #000;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #000;
+}
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom:  30px;
+    }
+}
+@media(max-width:574px){
+    .footer-col{
+        width: 100%;
+    }
 }
 
 
