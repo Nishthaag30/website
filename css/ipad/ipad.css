@@ -153,10 +153,10 @@ a{
     position: absolute;
     content: "";
     bottom: -5rem;
-    right: 20rem;
+    right: 22rem;
     border-right: solid rgba(110, 99, 99, 0.13) 15rem;
-    -webkit-box-shadow: -14px 26px 41px 30px rgba(255, 255, 255, 0.452);
-    transform: rotate(15deg);
+    -webkit-box-shadow: -14px 26px 41px 25px rgba(255, 255, 255, 0.452);
+    transform: rotate(155deg);
 }
 .hero .img-container img{
     width:30rem;
@@ -446,7 +446,38 @@ ul{
 }
 
 
+@media screen and (max-width:1200px) {
+    #s2{
+        background-size: auto 50rem;
+    }    
+    #s2.action-container{
+        font-size: 2.5rem;
+    }
+    .hero .img-container img{
+        width: 25rem;
+        margin-right: 10rem;
+    }
+    .hero .img-container::before{
+        -webkit-box-shadow: -14px 16px 41px 30px rgba(255, 255, 255, 0.452);
+        right: 17rem;
+    }
+}
+@media screen and (max-width:800px) {
+    #s2{
+        background-size: auto 30rem;
+    }
+    #container4{
+        display: block;
+    }
+    .hero .img-container img{
+        width: 20rem;
+        margin-right: 5rem;
+    }.hero .img-container::before{
+        -webkit-box-shadow: -14px 16px 41px 30px rgba(255, 255, 255, 0.452);
+        right: 12rem;
+    }
 
+}
 
 
 
