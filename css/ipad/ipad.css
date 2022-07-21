@@ -1,0 +1,428 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+header a{
+    display: block;
+    text-decoration: none;
+}
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1400;
+    width: 100%;
+    height: 5rem;
+    background-color: rgba(0,0,0,.8);
+    backdrop-filter: blur(2rem);
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+}
+.nav-list-mobile{
+    display: none;
+}
+.nav-link{
+    font-size: 1.5rem;
+    color: #ffff;
+    padding: 0 1rem;
+    transition: opacity .5s;
+}
+.nav-link:hover{
+    opacity: .7;
+}
+.nav-link-apple{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url(../../images/icon.svg) center no-repeat;
+}
+.nav-link-search{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url(../../images/search.svg) center no-repeat;
+}
+
+.nav-link-bag{
+    width: 1.4rem;
+    height: 4.4rem;
+    background: url(../../images/bag.svg) center no-repeat;
+}
+#s1{
+    margin: 0;
+    background: url(../../images/ipad/bg_img1.jpg) no-repeat center;
+    background-size: auto 90rem;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 5rem;
+}
+.hero .action-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto ;
+    margin-right: 5rem;
+    text-align: center;
+    overflow: visible;
+}
+.hero .action-container #new{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    margin-top: 200px;
+    font-size: 1.5rem;
+}
+#s1 .action-container h1{
+    font-size: 5.5rem;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    background: linear-gradient(0deg, rgba(210, 125, 195, 1) 0%, rgb(206, 176, 200) 20%, rgba(251, 239, 249, 1) 91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+}
+.h_manage{
+    line-height: 1.1rem;
+}
+.hero .action-container h3{
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+.hero .action-container .price{
+    color: lightgray;
+    font-size: 1.8rem;
+}
+.hero .action-container button{
+    margin-top: 5px;
+    padding: .8rem 2rem;
+    background-color: blue;
+    border-radius: 980px;
+    align-self:center ;
+}
+a{
+    text-decoration: none;
+}
+.hero .action-container button a{
+    color: white;
+    font-size: 2rem;
+}
+.hero .action-container .more{
+    margin-bottom: 300px;
+    margin-top: 10px;
+}
+.hero .action-container .more a{
+    color: blue;
+    text-align: center;
+    font-size: 2rem;
+}
+.hero .img-container{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.hero .img-container::after{
+    position: absolute;
+    top: -3rem;
+    right: 5rem;
+    padding-right: 25rem;
+    height: 25rem;
+    background: rgb(36, 255, 208);
+    background: linear-gradient(109deg, rgb(36, 232, 189) 20%, rgba(251,239, 249, 1) 100%);
+    border-radius: 50%;
+    opacity: 0.1;
+    z-index: -1;
+    content: "";
+}
+.hero .img-container::before{
+    position: absolute;
+    content: "";
+    bottom: -5rem;
+    right: 20rem;
+    border-right: solid rgba(110, 99, 99, 0.13) 15rem;
+    -webkit-box-shadow: -14px 26px 41px 30px rgba(255, 255, 255, 0.452);
+    transform: rotate(15deg);
+}
+.hero .img-container img{
+    width:30rem;
+    margin-right: 15rem;
+}
+
+#s2{
+    margin: 0 5rem;
+    background: url(../../images/ipad/ipad_pro.png) no-repeat center;
+    background-size: auto 70rem;
+}
+#s2 .action-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    margin-right: 20rem ;
+    text-align: center;
+}
+#s2 .action-container h3{
+    color: black;
+}
+#s2 .action-container h1{
+    color: black;
+    font-weight: 600;
+    font-size: 6.5rem;
+    letter-spacing: 0.1px;
+    -webkit-background-clip: text;
+    margin-bottom: 1rem;
+    font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.hero a:hover{
+    opacity: 0.4;
+}
+
+#container4{
+    height: 66.5rem;
+    width: 151.9em;
+    font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.main_heading{
+    font-size: 3.5rem;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+#container5{
+    height: 80%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container6{
+    margin-top: 30px;
+    height: 500px;
+    width: 300px;
+}
+.mac-image{
+    height: 200px;
+    width: 270px;
+    margin: 15px;
+    margin-top: 15px;
+}
+.mac-info{
+    height: 260px;
+    width: 270px;
+    margin: 15px;
+    margin-bottom: 15px;
+}
+.a_white
+{
+    color: white;
+}
+.mac_colors, .mac_heading, .mac_price, .mac_buy_btn, .mac_learnmore
+{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 8px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.mac_colors{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mac_heading{
+    height: 80px;
+    text-align: center;
+    line-height: 1.3rem;
+}
+.mac_price{
+    height: 40px;
+    text-align: center;
+}
+.mac_buy_btn{
+    height: 35px;
+    text-align: center;
+    
+}
+.mac_learnmore{
+    height: 35px;
+    text-align: center;
+}
+.mac_colors span{
+    height: 20px;
+    width: 20px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-left: 3px;
+}
+.mac_heading a h3{
+    padding: 10px;
+    padding-bottom: 5px;
+    font-size: 3.0rem;
+    font-weight: 490;
+    color: black;
+}
+.mac_heading  h3:hover{
+    text-decoration: underline;
+    color: grey;
+}
+#m3 h3{
+    margin-bottom: 9px;
+}
+#m3 span{
+    line-height: 0.9;
+}
+.mac_heading span{
+    font-size: 1.9rem;
+    font-weight: 400;
+}
+.mac_price span{
+    color: darkgrey;
+    font-size: 18px;
+}
+.mac_buy_btn span{
+    background-color: blue;
+    border-radius: 980px;
+    color: white;
+    padding: 6px 15px;
+    font-size: 18px;
+}
+.mac_learnmore a{
+    font-size: 17px;
+    text-decoration: none;
+}
+.mac_buy_btn a:hover, .mac_learnmore a:hover{
+    opacity: 0.4;
+}
+a{
+    text-decoration: none;
+}
+
+#a1{
+    background-color: rgb(123, 123, 123);
+}
+#a2{
+    background-color: rgb(223, 223, 223);
+}
+#b1{
+    background-color: #1d1d1f;
+}
+#b2{
+    background-color: rgb(223, 223, 223);
+}
+#b3{
+    background-color: rgb(242, 219, 189);
+}
+#b4{
+    background-color: rgb(123, 123, 123);
+}
+#b5{
+    background-color: rgb(86, 146, 154);
+}
+#c1{
+    background-color: rgb(123, 123, 123);
+}
+#c2{
+    background-color: rgb(223, 223, 223);
+}
+
+#seemore{
+    margin-top: 0px;
+    height: 2rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+    background-color: lightgrey;
+}
+#seemore a 
+{
+    font-size: 1.8rem;
+    color: black;
+    text-decoration: none;
+}
+#seemore a:hover{
+    text-decoration: underline;
+    opacity: 0.4;
+}
+
+
+
+
+
+
+
+@media screen and(min-width:1550px){
+    body{
+        max-width: 1550px;
+        margin: 0 auto;
+    }    
+}
+@media screen and(min-width:1100px) {
+    .hero{
+        gap: 2rem;
+        margin: auto 2rem;
+    }
+    .hero .action-container h1{
+        font-size: 2.5rem;
+    }
+    .hero .action-container h3{
+        font-size: 1.5rem;
+    }
+    .hero .action-container .price{
+        font-size: 1.1rem;
+    }
+    .hero .action-container a{
+        padding: 1rem 1.2rem;
+    }
+    .hero .img-container img{
+        width: 20rem;
+    }
+}
+
+@media screen  and(max-width: 780px) {
+    body{
+        text-align: center;
+    }
+    .hero{
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
+    .hero .action-container button{
+        margin: 0 auto;
+    }
+    .hero .img-container{
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+    .hero .img-container::before{
+        border-width: 10rem;
+        right: unset;
+    }
+    .hero .img-container::after{
+        right: unset;
+        padding: 10rem;
+        height: 1rem;
+    }
+}
+
+ @media screen and(max-width: 300px) {
+    .hero.img-container img{
+        width: 15rem;
+    };
+ }
